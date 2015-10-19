@@ -393,7 +393,7 @@ p {
   background-size: cover;
 }
 .client-column.lapfour {
-  background-image: url('../images/DavidFdalig.jpg');
+  background-image: url('../images/davidf3.jpeg');
   background-position: 50% 0px;
   background-size: cover;
 }
@@ -422,10 +422,10 @@ p {
   background-size: cover;
 }
 .client-column.trailerbot {
-  background-image: url('../images/');
+  background-image: url('../images/trailerbot.jpg');
 }
 .client-column.blanco-rojo {
-  background-image: url('../images/');
+  background-image: url('../images/blancorojo.jpg');
 }
 .client-nam {
   position: absolute;
@@ -495,13 +495,13 @@ p {
 }
 .slide-1 {
   margin-top: 0px;
-  background-image: url('../images/');
+  background-image: url('../images/trailerbot.jpg');
   background-position: 0% 31%;
   background-size: cover;
   background-attachment: scroll;
 }
 .slide-2 {
-  background-image: url('../images/');
+  background-image: url('../images/universideals.jpg');
   background-size: cover;
 }
 .parallax-section {
@@ -604,8 +604,8 @@ p {
   font-family:'Varela Round', sans-serif;
 }
 .text-area:focus {
-  border: 1px solid #4ac2c9;
-  background-color: transparent;
+  border: 1px solid rgba(217, 93, 221, 0.8);
+  background-color: white;
   opacity: 1;
 }
 .text-area.meddelande {
@@ -1329,3 +1329,4 @@ p {
     padding-left: 12px;
   }
 }
+
