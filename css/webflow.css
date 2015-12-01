@@ -75,7 +75,7 @@ html.w-mod-touch * {
 .w-button {
   display: inline-block;
   padding: 9px 15px;
-  background-color: #3898ec;
+  background-color: #3898EC;
   color: white;
   border: 0;
   line-height: inherit;
@@ -152,8 +152,8 @@ figcaption {
 }
 ul,
 ol {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 10px;
   padding-left: 40px;
 }
 .w-list-unstyled {
@@ -230,24 +230,24 @@ label {
 }
 .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {
-  color: #999999;
+  color: #999;
 }
 .w-input::-moz-placeholder,
 .w-select::-moz-placeholder {
-  color: #999999;
+  color: #999;
   opacity: 1;
 }
 .w-input:-ms-input-placeholder,
 .w-select:-ms-input-placeholder {
-  color: #999999;
+  color: #999;
 }
 .w-input::-webkit-input-placeholder,
 .w-select::-webkit-input-placeholder {
-  color: #999999;
+  color: #999;
 }
 .w-input:focus,
 .w-select:focus {
-  border-color: #3898ec;
+  border-color: #3898EC;
   outline: 0;
 }
 .w-input[disabled],
@@ -1507,6 +1507,10 @@ textarea.w-select {
 .w-richtext:after {
   clear: both;
 }
+.w-richtext ol,
+.w-richtext ul {
+  overflow: hidden;
+}
 .w-richtext .w-richtext-figure-selected[data-rt-type="video"] div:before {
   outline: 2px solid #2895f7;
 }
@@ -1654,7 +1658,7 @@ textarea.w-select {
   top: 100%;
   left: 0;
   right: 0;
-  background: #c8c8c8;
+  background: #C8C8C8;
   text-align: center;
   overflow: visible;
   min-width: 200px;
@@ -1708,7 +1712,7 @@ textarea.w-select {
   user-select: none;
 }
 .w-nav-button.w--open {
-  background-color: #c8c8c8;
+  background-color: #C8C8C8;
   color: white;
 }
 .w-nav[data-collapse="all"] .w-nav-menu {
@@ -1770,7 +1774,7 @@ textarea.w-select {
   background-color: #dddddd;
 }
 .w-tab-link.w--current {
-  background-color: #c8c8c8;
+  background-color: #C8C8C8;
 }
 .w-tab-content {
   position: relative;

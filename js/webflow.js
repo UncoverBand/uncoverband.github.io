@@ -2928,7 +2928,7 @@
 	  var win = window;
 	  var loc = win.location;
 	  var history = inIframe() ? null : win.history;
-	  var validHash = /^[a-zA-Z][\w:.-]*$/;
+	  var validHash = /^[a-zA-Z0-9][\w:.-]*$/;
 
 	  function inIframe() {
 	    try {
@@ -2986,7 +2986,12 @@
 	    }
 
 	    // Push new history state
-	    if (loc.hash !== hash && history && history.pushState) {
+	    if (
+	      loc.hash !== hash &&
+	      history && history.pushState &&
+	      // Navigation breaks Chrome when the protocol is `file:`.
+	      !(Webflow.env.chrome && loc.protocol === 'file:')
+	    ) {
 	      var oldHash = history.state && history.state.hash;
 	      if (oldHash !== hash) {
 	        history.pushState({ hash: hash }, '', '#' + hash);
